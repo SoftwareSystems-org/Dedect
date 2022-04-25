@@ -45,7 +45,7 @@ import dedect_rc
 
 ip = '192.168.1.25'
 login = 'myftp'
-password = ''
+password = 'TestTest0101!'
 
 #url http login axis camera
 #URL = 'http://' + login + ':' + password + '@' + ip + '/mjpg/1/video.mjpg?'
