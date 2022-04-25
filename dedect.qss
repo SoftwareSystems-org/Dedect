@@ -1,0 +1,263 @@
+QToolTip {
+    border: 2px solid darkkhaki;
+    background-color: #33375B;
+    color: white;
+    padding: 0px;
+    border-radius: 3px;
+    opacity: 500;
+}
+
+QMdiSubWindow {
+    color: black;
+    height: 25px;
+    font: bold 24px;
+    border: 2px solid #000000;
+    background-color: black;
+}
+QMdiSubWindow::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+QMdiSubWindow::close-button, QMdiSubWindow::float-button {
+    background: darkgray;
+}
+QMdiSubWindow::close-button:hover, QMdiSubWindow::float-button:hover {
+    background: gray;
+}
+QMdiSubWindow::close-button:pressed, QMdiSubWindow::float-button:pressed {
+}
+QMdiSubWindow::separator {
+    background: darkgray;
+    width: 10px;
+    height: 10px;
+}
+
+QDockWidget {
+    color: white;
+    height: 25px;
+    font: bold 24px;
+}
+QDockWidget::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+QDockWidget::close-button, QDockWidget::float-button {
+    background: darkgray;
+}
+QDockWidget::close-button:hover, QDockWidget::float-button:hover {
+    background: gray;
+}
+QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
+}
+
+MQMainWindow {
+    color: black;
+    height: 25px;
+    font: bold 24px;
+}
+MQMainWindow::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+MQMainWindow::close-button, MQMainWindow::float-button {
+    background: darkgray;
+}
+MQMainWindow::close-button:hover, MQMainWindow::float-button:hover {
+    background: gray;
+}
+MQMainWindow::close-button:pressed, MQMainWindow::float-button:pressed {
+}
+MQMainWindow::separator {
+    background: darkgray;
+    width: 10px;
+    height: 10px;
+}
+MQMainWindow::separator:hover {
+    background: gray;
+}
+MQMainWindow QStatusBar {
+    color: white;
+    background-color: #33375B;
+}
+MQMainWindow QStatusBar::item {
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+MQWidgetVideoDisplay {
+    background-color: #33375B;
+}
+MQWidgetVideoDisplay::title {
+    background-color: black;
+}
+MQWidgetVideoDisplay QLabel {
+    background-color: #33375B;
+    font: bold 48px;
+}
+
+MQDockWidgetFilterOptions {
+    color: white;
+    height: 25px;
+    font: bold 24px;
+}
+MQDockWidgetFilterOptions::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+MQDockWidgetFilterOptions::close-button, MQDockWidgetFilterOptions::float-button {
+    background: darkgray;
+}
+MQDockWidgetFilterOptions::close-button:hover, MQDockWidgetFilterOptions::float-button:hover {
+    background: gray;
+}
+MQDockWidgetFilterOptions::close-button:pressed, MQDockWidgetFilterOptions::float-button:pressed {
+}
+MQDockWidgetFilterOptions QTreeView {
+    show-decoration-selected: 1;
+}
+MQDockWidgetFilterOptions QTreeView::item {
+    border: 1px solid #33375B;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+MQDockWidgetFilterOptions QTreeView::item:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #33375B);
+    border: 1px solid #bfcde4;
+}
+MQDockWidgetFilterOptions QTreeView::item:selected {
+    border: 1px solid #33375B;
+}
+MQDockWidgetFilterOptions QTreeView::item:selected:active{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #33375B);
+}
+MQDockWidgetFilterOptions QTreeView::item:selected:!active {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6b9be8, stop: 1 #33375B);
+}
+MQDockWidgetFilterOptions QHeaderView::section {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #33375B);
+    color: white;
+    padding-left: 30px;
+    border: 1px solid #33375B;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+MQDockWidgetFilterView {
+    color: white;
+    height: 25px;
+    font: bold 24px;
+}
+MQDockWidgetFilterView::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+MQDockWidgetFilterView::close-button, MQDockWidgetFilterView::float-button {
+    background: darkgray;
+}
+MQDockWidgetFilterView::close-button:hover, MQDockWidgetFilterView::float-button:hover {
+    background: gray;
+}
+MQDockWidgetFilterView::close-button:pressed, MQDockWidgetFilterView::float-button:pressed {
+}
+
+MQDockWidgetPTZPath {
+    color: white;
+    height: 25px;
+    font: bold 24px;
+    background-color: white;
+}
+MQDockWidgetPTZPath::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+MQDockWidgetPTZPath::close-button, MQDockWidgetPTZPath::float-button {
+    background: darkgray;
+}
+MQDockWidgetPTZPath::close-button:hover, MQDockWidgetPTZPath::float-button:hover {
+    background: gray;
+}
+MQDockWidgetPTZPath::close-button:pressed, MQDockWidgetPTZPath::float-button:pressed {
+}
+
+MQDockWidgetConsole {
+    color: white;
+    height: 25px;
+    font: bold 24px;
+    background-color: white;
+}
+MQDockWidgetConsole::title {
+    background-color: black;
+    border-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 20px 2px 20px;
+    border: 0px solid transparent;
+}
+MQDockWidgetConsole::close-button, MQDockWidgetConsole::float-button {
+    background: darkgray;
+}
+MQDockWidgetConsole::close-button:hover, MQDockWidgetConsole::float-button:hover {
+    background: gray;
+}
+MQDockWidgetConsole::close-button:pressed, MQDockWidgetConsole::float-button:pressed {
+}
+
+MQToolBarURL {
+}
+MQToolBarURL QLabel {
+    color: black;
+    height: 40px;
+    font: bold 24px;
+    padding: 0px 20px 0px 20px;
+}
+MQToolBarURL QLineEdit {
+    height: 40px;
+    font: bold 24px;
+    padding: 0px 20px 0px 20px;
+}
+MQToolBarURL QToolButton {
+}
+MQToolBarURL QCheckBox {
+    color: black;
+    font: bold 24px;
+    padding: 0px 20px 0px 20px;
+}
+MQToolBarURL QCheckBox::indicator {
+    width: 40px;
+    height: 40px;
+}
+MQToolBarURL QCheckBox::indicator:unchecked {
+}
+MQToolBarURL QCheckBox::indicator:unchecked:hover {
+     background-color: gray;
+}
+MQToolBarURL QCheckBox::indicator:unchecked:pressed {
+}
+MQToolBarURL QCheckBox::indicator:checked {
+}
+MQToolBarURL QCheckBox::indicator:checked:hover {
+    background-color: gray;
+}
+MQToolBarURL QCheckBox::indicator:checked:pressed {
+}
+MQToolBarURL QCheckBox::indicator:indeterminate:hover {
+}
+MQToolBarURL QCheckBox::indicator:indeterminate:pressed {
+}
